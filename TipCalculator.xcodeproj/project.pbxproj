@@ -13,6 +13,7 @@
 		E99B62E21AB295DE00D14A48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E99B62E11AB295DE00D14A48 /* Images.xcassets */; };
 		E99B62E51AB295DE00D14A48 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E99B62E31AB295DE00D14A48 /* LaunchScreen.xib */; };
 		E99B62F11AB295DE00D14A48 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99B62F01AB295DE00D14A48 /* TipCalculatorTests.swift */; };
+		E99B62FB1AB2962500D14A48 /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99B62FA1AB2962500D14A48 /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E99B62EA1AB295DE00D14A48 /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99B62EF1AB295DE00D14A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E99B62F01AB295DE00D14A48 /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
+		E99B62FA1AB2962500D14A48 /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				E99B62E11AB295DE00D14A48 /* Images.xcassets */,
 				E99B62E31AB295DE00D14A48 /* LaunchScreen.xib */,
 				E99B62D81AB295DE00D14A48 /* Supporting Files */,
+				E99B62FA1AB2962500D14A48 /* TipCalculatorModel.swift */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E99B62FB1AB2962500D14A48 /* TipCalculatorModel.swift in Sources */,
 				E99B62DD1AB295DE00D14A48 /* ViewController.swift in Sources */,
 				E99B62DB1AB295DE00D14A48 /* AppDelegate.swift in Sources */,
 			);
